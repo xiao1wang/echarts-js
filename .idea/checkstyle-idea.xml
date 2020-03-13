@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CheckStyle-IDEA">
+    <option name="configuration">
+      <map>
+        <entry key="active-configuration" value="LOCAL_FILE:D:/wangyahui/恒安嘉新/过程及文档/模板/编码检查规范/编码规范v2/Eversec-CheckStyle-2.0.4.xml:Eversec-CheckStyle-2.0.4" />
+        <entry key="checkstyle-version" value="8.23" />
+        <entry key="copy-libs" value="true" />
+        <entry key="location-0" value="BUNDLED:(bundled):Sun Checks" />
+        <entry key="location-1" value="BUNDLED:(bundled):Google Checks" />
+        <entry key="location-2" value="LOCAL_FILE:D:/wangyahui/恒安嘉新/过程及文档/模板/编码检查规范/编码规范v2/Eversec-CheckStyle-2.0.4.xml:Eversec-CheckStyle-2.0.4" />
+        <entry key="scan-before-checkin" value="false" />
+        <entry key="scanscope" value="JavaOnly" />
+        <entry key="suppress-errors" value="false" />
+      </map>
+    </option>
+  </component>
+</project>
