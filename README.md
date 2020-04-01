@@ -4,7 +4,7 @@
  文件中的内容是GeoJSON格式的数据，您会看到coordinates的属性值有时候提供的是经纬度，有时候提供的是压缩后值，该压缩是通过调用echarts中提供的压缩方法，进行压缩的，能够很好的被echarts识别，同时也节省了占用空间
  
 ## 使用方式
-由于提供的数据格式是json形式的，需要在程序中通过ajax方式获取，并使用echarts提供的registerMap(mapName: string, geoJson: Object, specialAreas?: Object)方式注册使用。这样在 geo 组件或者 map 图表类型中就能使用该注册名称。
+由于提供的数据格式有部分是json形式的，需要在程序中通过ajax方式获取，并使用echarts提供的registerMap(mapName: string, geoJson: Object, specialAreas?: Object)方式注册使用。这样在 geo 组件或者 map 图表类型中就能使用该注册名称。
 针对方法中的specialAreas参数，主要是将地图中的部分区域缩放到合适的位置，可以使得整个地图的显示更加好看
  
  示例 [USA Population Estimates](https://www.echartsjs.com/examples/zh/editor.html?c=map-usa)：
